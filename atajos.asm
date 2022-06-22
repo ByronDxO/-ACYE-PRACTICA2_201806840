@@ -3,7 +3,7 @@
 
 ;print 
 
-getPrint macro buffer 
+Imprimir macro buffer 
     MOV AX,@data
     MOV DS,AX
     MOV AH,09H
